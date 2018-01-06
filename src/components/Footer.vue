@@ -20,7 +20,11 @@ export default {
 .footer{
   background:#968885;
   color:white;
-  
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+.footer p {
+  margin: 5px
 }
 </style>
 
