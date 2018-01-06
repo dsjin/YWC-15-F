@@ -2,15 +2,6 @@
     <div class="campaign-detail">
         <div class="detail-img">
             <img src="http://via.placeholder.com/350x150" alt="">
-
-            <div class="detail-progress">
-                เติมเต็มฝันไปแล้ว
-                <div class="progress detail-progress-bar">
-                    <div class="progress-bar" style="width:60%">60%</div>
-                </div>
-
-            </div>
-
         </div>
 
         <div class="campaign-content container">
@@ -19,15 +10,6 @@
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate cumque distinctio reprehenderit blanditiis corporis,
                 inventore molestiae debitis praesentium! Quod ut veniam exercitationem sunt earum cupiditate maiores sint
                 consequatur nulla excepturi.
-            </div>
-            <div class="text-right">
-                <!-- <button type="button" class="btn"><a [routerLink]="['/sent']"></a>DONATE DREAMER</a></button> -->
-                <!-- <button type="button" class="btn">DONATE DREAMER</button> -->
-                <button class="btn btn-default" @click="getDonate()">
-                        <!-- <router-link :to="{ path: '/campaign'}">DONATE DREAMER</router-link> -->
-                        DONATE DREAMER
-                </button>
-               
             </div>
         </div>
 
@@ -69,11 +51,6 @@
             return {
 
             };
-        },
-        methods: {
-            getDonate: function () {
-               this.$router.push({'name':'Donate'})
-            }
         }
     };
 </script>
