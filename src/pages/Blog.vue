@@ -15,7 +15,7 @@
 ทีมงานดรีมมานด์.คอมขอขอบคุณทุกน้ำใจของทุกคนที่หยิบยื่นมาช่วงสร้างความฝันของเด็กที่มีความฝันให้สำเร็จอีกครั้งนะคะ 
 
 </p>
-            <button type="button" class="btn btn-primary" @click="goto('/campaign/100')">ดูรายละเอียด</button>
+            <button type="button" class="btn btn-primary" @click="goto('/blog/100')">ดูรายละเอียด</button>
       </div>
   </div>
 
