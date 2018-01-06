@@ -19,6 +19,12 @@
           <a class="nav-link" href="#">Blog</a>
         </li>
 
+        <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+
+          
+
       </ul>
 
     </div>
