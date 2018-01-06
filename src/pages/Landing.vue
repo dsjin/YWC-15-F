@@ -10,7 +10,7 @@
         <h1 style="font-size:4em">ที่รอคอยการเติมเต็ม"</h1>
       </div>
       <div class="header-button-box">
-        <button class="btn cicle-btn bg-yellow" @click="goto('/form')">แบ่งปัน</button>
+        <button class="btn cicle-btn bg-yellow" @click="goto('/form')">โพสต์เรื่องราว</button>
         <button class="btn cicle-btn bg-yellow" style="margin-left: 15px;" @click="goto('campaign')">พบเด็กช่างฝัน</button>
       </div>
     </section>
@@ -31,7 +31,7 @@
         <div class="col-md-12 col-lg-12 col-sm-12">
             <div class="row">
               <div class="col-md-4">
-                  <div class="card vertical-center" style="height:auto;">
+                    <div class="card vertical-center" style="height:auto; min-height:300px">
                     <div class="card-body">
                       <p class="font-cloud-light" style="padding:0px">ยอดเงินบริจาคทั้งหมด</p>
                       <p class="font-card-p" style="padding:0px">144,000 บาท</p>
@@ -39,7 +39,7 @@
                   </div>
               </div>
               <div class="col-md-4">
-                <div class="card vertical-center" style="height:auto;">
+                <div class="card vertical-center" style="height:auto; min-height:300px">
                   <div class="card-body">
                       <div class="font-cloud-light">ระยะเวลา</div>
                       <div class="font-card-p">123 วัน</div>
@@ -49,7 +49,7 @@
                   </div>
               </div>
               <div class="col-md-4">
-                <div class="card vertical-center" style="height:auto;">
+                 <div class="card vertical-center" style="height:auto; min-height:300px">
                   <div class="card-body">
                     <div class="font-cloud-light">เด็กๆจำนวน</div>
                     <div class="font-cloud-light">998 คน</div>
@@ -95,7 +95,7 @@
                       <img class="card-img-top" src="../assets/photo-1486280380840-0531135d75af.jpg" width="100%" height="150" alt="Card image cap">
                   </div>
                   <div class="card-body">
-                    <h5 class="card-title color-black">สุขภาพเท้าสำหรับเด็กเหมือนสุขภาพใน</h5>
+                    <h5 class="card-title color-black">สุขภาพเท้าสำหรับเด็กเหมือนสุขภาพภายใน</h5>
                     <p class="card-text color-black">สุขภาพจากการเล่นรถจักยานเพื่อน้องถือเป็นสิ่งสำคัญที่จะทำให้สุขภาพของเด็กดีขึ้น</p>
                   </div>
                 </div>
