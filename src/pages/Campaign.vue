@@ -46,11 +46,13 @@
                 </ul>
             </nav>
         </div>
+           <Footer/>
     </div>
 
 </template>
 
 <script>
+import Footer from '@/components/Footer'
     import CampaignHeader from '@/components/CampaignHeader'
     export default {
         name: "Campaign",
@@ -60,6 +62,7 @@
             };
         },
         components: {
+            "Footer":Footer,
             "CampaignHeader": CampaignHeader
         }
     };

@@ -3,12 +3,15 @@
         <h1>Detail</h1>
         <div class="detail-img">
             <img src="http://via.placeholder.com/350x150" alt="">
-            <div class="detail-progress text-right ">
+
+            <div class="detail-progress">
                 เติมเต็มฝันไปแล้ว
                 <div class="progress detail-progress-bar">
                     <div class="progress-bar" style="width:60%">60%</div>
                 </div>
+
             </div>
+
         </div>
 
         <div class="campaign-content container">
@@ -19,7 +22,13 @@
                 consequatur nulla excepturi.
             </div>
             <div class="text-right">
-                <button class="btn">DONATE DREAMER</button>
+                <!-- <button type="button" class="btn"><a [routerLink]="['/sent']"></a>DONATE DREAMER</a></button> -->
+                <!-- <button type="button" class="btn">DONATE DREAMER</button> -->
+                <button class="btn btn-default" @click="getDonate()">
+                        <!-- <router-link :to="{ path: '/campaign'}">DONATE DREAMER</router-link> -->
+                        DONATE DREAMER
+                </button>
+               
             </div>
         </div>
 
@@ -59,19 +68,20 @@
         name: "CampaignDetail",
         data() {
             return {
-                msg: "Welcome to Your Vue.js App"
+
             };
+        },
+        methods: {
+            getDonate: function () {
+               this.$router.push({'name':'Donate'})
+            }
         }
     };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-    .detail-pic {
+    .detail-img img {
         width: 100%;
-    }
-
-    .detail-progress-bar {
-        width: 30%;
     }
 </style>

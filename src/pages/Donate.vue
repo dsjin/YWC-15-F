@@ -1,14 +1,17 @@
 <template>
-  <h1>dONATE</h1>
+    <div id="donate">
+       <button type="button" class="btn btn-primary">Primary</button>
+       <button type="button" class="btn btn-primary">Primary</button>
+       <button type="button" class="btn btn-primary">Primary</button>
+       <button type="button" class="btn btn-primary">Primary</button>
+    </div>
 </template>
 
 <script>
 export default {
   name: 'Donate',
   data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
+      return {}
   }
 }
 </script>
