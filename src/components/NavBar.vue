@@ -8,19 +8,19 @@
 
     <div class="collapse navbar-collapse container" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-            <router-link class="nav-link" :to="{ path: '/' }">Home</router-link>
+        <li class="nav-item">
+            <router-link class="nav-link" :to="{ path: '/' }">หน้าแรก </router-link>
         </li>
         <li class="nav-item">
-            <router-link class="nav-link" :to="{ path: '/campaign' }">Campaign</router-link>
-        </li>
-
-        <li class="nav-item">
-            <router-link class="nav-link" :to="{ path: '/' }">Blog</router-link>
+            <router-link class="nav-link" :to="{ path: '/campaign' }">แคมเปญทั้งหมด</router-link>
         </li>
 
         <li class="nav-item">
-            <router-link class="nav-link" :to="{ path: '/' }">Contact</router-link>
+            <router-link class="nav-link" :to="{ path: '/' }">บทความ</router-link>
+        </li>
+
+        <li class="nav-item">
+            <router-link class="nav-link" :to="{ path: '/' }">ติดต่อ</router-link>
           </li>
 
           

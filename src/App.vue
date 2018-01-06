@@ -34,6 +34,6 @@ export default {
   }
 
   .app-body {
-    margin-top: 60px;
+    margin-top: 58px;
   }
 </style>
