@@ -38,10 +38,11 @@ export default {
 }
 </script>
 <style scoped>
+    #about-us{
+        margin-top:100px
+    }
     .header{
-        display: inline-box;
-        margin-bottom: 20px;
-        margin-top:20px
+        margin-bottom: 40px
     }
 </style>
 
