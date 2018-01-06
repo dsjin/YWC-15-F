@@ -4,6 +4,7 @@ import Router from 'vue-router'
 import Landing from '@/pages/Landing'
 import Campaign from '@/pages/Campaign'
 import Donate from '@/pages/Donate'
+import CampaignDetail from '@/pages/CampaignDetail'
 
 Vue.use(Router)
 
@@ -23,6 +24,11 @@ export default new Router({
       path: '/donate',
       name: 'Donate',
       component: Donate
+    },
+    {
+      path: '/campaign/:id',
+      name: 'CampaignDetail',
+      component: CampaignDetail
     }
   ]
 })
