@@ -1,5 +1,7 @@
 <template>
-  <h1>Campaign</h1>
+  <div id="campaign">
+    
+  </div>
 </template>
 
 <script>
