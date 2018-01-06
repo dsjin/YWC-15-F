@@ -1,7 +1,9 @@
 <template>
     <div id="campaign">
 
-        <campaign-header/>
+        <div class="container">
+            <campaign-header/>
+        </div>
 
         <div class="container">
             <h2 class="text-left"> Head subject</h2>
@@ -70,4 +72,7 @@ import Footer from '@/components/Footer'
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+#campaign{
+ margin-top:60px;   
+}
 </style>

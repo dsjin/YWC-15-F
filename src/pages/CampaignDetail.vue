@@ -1,24 +1,27 @@
 <template>
     <div class="campaign-detail">
-        <div class="detail-img">
-            <img src="http://via.placeholder.com/350x150" alt="">
+        <div class="detail-img container">
+             <img class="img-fluid" src="../assets/glenn-carstens-peters-203007.jpg" alt="thumbnail"/>
+            <!-- 350 150 -->
 
             <div class="detail-progress">
                 เติมเต็มฝันไปแล้ว
                 <div class="progress detail-progress-bar">
                     <div class="progress-bar" style="width:60%">60%</div>
                 </div>
-
             </div>
 
         </div>
 
         <div class="campaign-content container">
-            <h2>Title of Campaign</h2>
+            <h2>แคมเปญสานฝันอุปกรณ์ทางการศึกษาให้น้อง</h2>
             <div>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate cumque distinctio reprehenderit blanditiis corporis,
-                inventore molestiae debitis praesentium! Quod ut veniam exercitationem sunt earum cupiditate maiores sint
-                consequatur nulla excepturi.
+              ร่วมช่วยเหลือเด็กด้อยโอกาสเพื่อให้พวกเขาได้รับอุปกรณ์ทางการศึกษาเพื่อการเรียน และสนับสนุนการเรียนรู้
+
+อุปกรณ์ทางการศึกษาเป็นปัจจัยสำคัญที่ทำให้เด็กด้อยโอกาส มีกำลังใจเรียนต่อไปได้ ถึงแม้ราคาของอุปกรณ์จะไม่แพงสำหรับบางคน แต่สำหรับพวกเขามีค่ามาก
+
+
+”คอมพิวเตอร์ทำให้สานฝันสิ่งที่ผมอยากเรียนต่อ”
             </div>
             <div class="text-right">
                 <!-- <button type="button" class="btn"><a [routerLink]="['/sent']"></a>DONATE DREAMER</a></button> -->
@@ -63,24 +66,23 @@
 </template>
 
 <script>
-    export default {
-        name: "CampaignDetail",
-        data() {
-            return {
-
-            };
-        },
-        methods: {
-            getDonate: function () {
-               this.$router.push({'name':'Donate'})
-            }
-        }
-    };
+export default {
+  name: "CampaignDetail",
+  data() {
+    return {};
+  },
+  methods: {
+    getDonate: function() {
+      this.$router.push({ name: "Donate" });
+    }
+  }
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-    .detail-img img {
-        width: 100%;
-    }
+.detail-img img {
+  /* width: 80%; */
+  height: 500px;
+}
 </style>

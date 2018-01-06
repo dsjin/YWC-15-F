@@ -1,17 +1,33 @@
 <template>
   <div class="row" id="campaignheader">
       <div class="campaignheader-img col-md-7 col-sm-6">
-          <img src="http://via.placeholder.com/500x400" alt="thumbnail"/>
+          <img src="../assets/glenn-carstens-peters-203007.jpg" alt="thumbnail"/>
       </div>
       <div class="campaignheader-content col-md-5 col-sm-6">
-          <h2>Campaign</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit
-              , sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident
-              , sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <button type="button" class="btn btn-primary" @click="goto('/campaign/100')">Primary</button>
+          <h2>แคมเปญสานฝันอุปกรณ์ทางการศึกษาให้น้อง</h2>
+          <p>ร่วมช่วยเหลือเด็กด้อยโอกาสเพื่อให้พวกเขาได้รับอุปกรณ์ทางการศึกษาเพื่อการเรียน และสนับสนุนการเรียนรู้
+
+อุปกรณ์ทางการศึกษาเป็นปัจจัยสำคัญที่ทำให้เด็กด้อยโอกาส มีกำลังใจเรียนต่อไปได้ ถึงแม้ราคาของอุปกรณ์จะไม่แพงสำหรับบางคน แต่สำหรับพวกเขามีค่ามาก
+
+
+”คอมพิวเตอร์ทำให้สานฝันสิ่งที่ผมอยากเรียนต่อ”
+
+เด็กชายนนทรี ตรีบุตร หรือน้องนน อายุ 16 ปี จากโรงเรียนคลองบ่อ จังหวัดศรีษะเกษ น้องนนมีความสนใจในด้านคอมพิวเตอร์มาตั้งแต่เด็ก แต่ไม่มีทุนทรัพย์เพียงพอเพื่อซื้ออุปกรณ์ หากมีสิ่งนี้จะตั้งใจสอบเข้าวิศวะคอมพิวเตอร์ให้ได้
+
++++มาร่วมเติมฝันให้น้องกัน+++
+
+ต่อ++++
+
+น้องนน อายุ 16 ปี นักเรียนจากโรงเรียนคลองบ่อ จังหวัดศรีษะเกษ มีความใฝ่ฝันอยากเข้าวิศวะคอมพิวเตอร์ 
+
+
+“ขอเสื้อผ้านักเรียนให้ผมได้ใส่”
+
+เด็กชายภูมิพล ศักดิ์ศรี หรือน้องภูมิ อายุ 6 ขวบ จากโรงเรียนหนองดี จังหวัดขอนแก่น น้องภูมิไม่มีเสื้อผ้านักเรียนใหม่ใส่ เพราะครอบครัวมีรายได้ไม่เพียงพอเพื่อใช้จ่ายเสื้อผ้า 
+
++++มาร่วมเติมฝันให้น้องกัน+++
+</p>
+            <button type="button" class="btn btn-primary" @click="goto('/campaign/100')">ดูรายละเอียด</button>
       </div>
   </div>
 </template>

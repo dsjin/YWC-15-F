@@ -4,9 +4,12 @@
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="#">
-      <img src="../assets/logo.png" width="50%" height="50%" alt="" srcset="">
-    </a>
+
+       <router-link class="navbar-brand" :to="{ path: '/' }"> 
+        <img src="../assets/logo.png" width="50%" height="50%" alt="" srcset="">
+       </router-link>
+    
+
 <div class="navbar-logo"></div>
     <div class="collapse navbar-collapse container" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
@@ -22,7 +25,7 @@
         </li>
 
         <li class="nav-item">
-            <router-link class="nav-link" :to="{ path: '/aboutus' }">ติดต่อ</router-link>
+            <router-link class="nav-link" :to="{ path: '/aboutus' }">เกี่ยวกับเรา</router-link>
           </li>
 
           
