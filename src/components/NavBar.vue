@@ -6,21 +6,21 @@
     </button>
     <a class="navbar-brand" href="#">Logo</a>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse container" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
             <router-link class="nav-link" :to="{ path: '/' }">Home</router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Campaigne</a>
+            <router-link class="nav-link" :to="{ path: '/campaign' }">Campaign</router-link>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#">Blog</a>
+            <router-link class="nav-link" :to="{ path: '/' }">Blog</router-link>
         </li>
 
         <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <router-link class="nav-link" :to="{ path: '/' }">Contact</router-link>
           </li>
 
           
