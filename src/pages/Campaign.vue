@@ -5,49 +5,81 @@
             <campaign-header/>
         </div>
 
-        <div class="container">
-            <h2 class="text-left"> Head subject</h2>
+       <section style="margin-top:10px;margin-bottom:50px;">
+      <div class="container">
+        <h1 class="text-left" style="margin-top:10px">แคมเปญที่น่าสนใจ</h1>
+        <div class="row">
+      
 
-            <div class="row">
-                <div v-for="(item,index) in [1,2,3,4,5,6,7,8,9]" :key="index" class="col-md-4 col-sm-6 col-xs-12">
-                    <!-- <router-link :to="{ path: '/campaign' }" class="card"> -->
-                    <router-link :to="{ path: '/campaign/'+item }">
-                        <div class="card">
-                            <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </router-link>
-
-
+          <div class="col-md-4 col-sm-6 col-xs-12 color-black">
+            <!-- <router-link :to="{ path: '/campaign' }" class="card"> -->
+            <router-link :to="{ path: '/campaign/'+item }">
+              <div class="card" style="min-height:300px">
+                <img class="card-img-top" src="../assets/IMG_8808.jpg" width="auto" height="150" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title color-black">แคมเปญสานฝันอุปกรณ์ทางการศึกษา</h5>
+                  <p class="card-text color-black">ร่วมช่วยเหลือเด็กด้อยโอกาสเพื่อให้พวกเขาได้รับอุปกรณ์ทางการศึกษาเพื่อการเรียน และสนับสนุนการเรียนรู้</p>
                 </div>
-                
+              </div>
+            </router-link>
+
+          </div>
+
+
+          <div class="col-md-4 col-sm-6 col-xs-12 color-black">
+              <!-- <router-link :to="{ path: '/campaign' }" class="card"> -->
+              <router-link :to="{ path: '/campaign/'+item }">
+                <div class="card" style="min-height:300px">
+                  <div class="div">
+                      <img class="card-img-top" src="../assets/photo-1486280380840-0531135d75af.jpg" width="100%" height="150" alt="Card image cap">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title color-black">สุขภาพเท้าสำหรับเด็กเหมือนสุขภาพใน</h5>
+                    <p class="card-text color-black">สุขภาพจากการเล่นรถจักยานเพื่อน้องถือเป็นสิ่งสำคัญที่จะทำให้สุขภาพของเด็กดีขึ้น</p>
+                  </div>
+                </div>
+              </router-link>
+  
+            </div>
+
+            
+          <div class="col-md-4 col-sm-6 col-xs-12 color-black">
+              <!-- <router-link :to="{ path: '/campaign' }" class="card"> -->
+              <router-link :to="{ path: '/campaign/'+item }">
+                <div class="card" style="min-height:300px">
+                  <img class="card-img-top" src="../assets/rodolfo-mari-81201.jpg" width="auto" height="150" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title color-black">สุขภาพจากการเล่นรถจักรยานเพื่อน้อง</h5>
+                    <p class="card-text color-black">สุขภาพจากการเล่นรถจักยานเพื่อน้องถือเป็นสิ่งสำคัญที่จะทำให้สุขภาพของเด็กดีขึ้นถือเป็นการช่วยเหลือด้าน</p>
+                  </div>
+                </div>
+              </router-link>
+  
             </div>
 
 
-
-            <nav aria-label="Page navigation example">
-                <ul class="pagination justify-content-end">
-                    <li class="page-item disabled">
-                        <a class="page-link" href="#" tabindex="-1">Previous</a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">1</a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">2</a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">3</a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">Next</a>
-                    </li>
-                </ul>
-            </nav>
         </div>
+      </div>
+
+      <div class="container">
+        <h1 class="text-left" style="margin-top:10px">บทความ</h1>
+        <div class="row">
+          <div v-for="(item,index) in [1,2,3,4]" :key="index" class="col-md-3 col-sm-6 col-xs-12">
+            <!-- <router-link :to="{ path: '/campaign' }" class="card"> -->
+            <router-link :to="{ path: '/campaign/'+item }">
+              <div class="card">
+                <img class="card-img-top" src="../assets/photo-1465659398573-cc071d2531d0.jpg"  width="auto" height="150" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">ปะแป้งเด็กเก็บเห็ด ที่ได้รับโอกาสจากแคมเปญ</h5>
+                </div>
+              </div>
+            </router-link>
+
+          </div>
+        </div>
+      </div>
+
+    </section>
            <Footer/>
     </div>
 

@@ -1,7 +1,7 @@
 <template>
   <div class="row" id="campaignheader">
       <div class="campaignheader-img col-md-7 col-sm-6">
-          <img src="../assets/glenn-carstens-peters-203007.jpg" alt="thumbnail"/>
+          <img src="../assets/IMG_8808.jpg" alt="thumbnail"/>
       </div>
       <div class="campaignheader-content col-md-5 col-sm-6">
           <h2>แคมเปญสานฝันอุปกรณ์ทางการศึกษาให้น้อง</h2>

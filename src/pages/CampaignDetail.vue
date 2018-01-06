@@ -1,7 +1,7 @@
 <template>
     <div class="campaign-detail">
         <div class="detail-img container">
-             <img class="img-fluid" src="../assets/glenn-carstens-peters-203007.jpg" alt="thumbnail"/>
+             <img class="img-fluid" src="../assets/IMG_8808.jpg" alt="thumbnail"/>
             <!-- 350 150 -->
 
             <div class="detail-progress">
