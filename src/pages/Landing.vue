@@ -20,9 +20,9 @@
         <div class="col-md-12 col-lg-12 col-sm-12 ">
           <div class="container">
           <p class="text-center" style="font-size: 5rem;">Dreamand</p>
-          <p class="text-center" style="font-size: 2rem">สานฝันสู่การให้ที่ยิ่งใหญ่</p>
+          <p class="text-center font-cloud-bold" style="font-size: 2rem">สานฝันสู่การให้ที่ยิ่งใหญ่</p>
 
-          <p class="text-center">
+          <p class="text-center " style="font-family: Cloud-light; font-size:1.5em">
           ดรีมมานด์.คอม เป็นเว็บไซต์สำหรับการช่วยเหลือเด็กที่มีความฝัน แต่ขาดโอกาสในการทำความฝันของตัวเอง โดยใช้วิธีการระดมทุน เพื่อนำเงินไปดำเนินการสร้างความฝัน ตามแต่ละอันความฝันที่น้องต้องการ
           </p>
         </div>
@@ -68,7 +68,7 @@
 
     <section style="margin-top:10px;margin-bottom:50px;">
       <div class="container">
-        <h1 class="text-left" style="margin-top:10px">แคมเปญที่น่าสนใจ</h1>
+        <h1 class="text-left" style="margin-top:30px;margin-bottom:30px">แคมเปญที่น่าสนใจ</h1>
         <div class="row">
       
 
@@ -78,7 +78,7 @@
               <div class="card" style="min-height:300px">
                 <img class="card-img-top" src="../assets/IMG_8808.jpg" width="auto" height="150" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title color-black">แคมเปญสานฝันอุปกรณ์ทางการศึกษา</h5>
+                  <h5 class="card-title color-black font-cloud-bold" style="margin-top:20px">แคมเปญสานฝันอุปกรณ์ทางการศึกษา</h5>
                   <p class="card-text color-black">ร่วมช่วยเหลือเด็กด้อยโอกาสเพื่อให้พวกเขาได้รับอุปกรณ์ทางการศึกษาเพื่อการเรียน และสนับสนุนการเรียนรู้</p>
                 </div>
               </div>
@@ -95,7 +95,7 @@
                       <img class="card-img-top" src="../assets/photo-1486280380840-0531135d75af.jpg" width="100%" height="150" alt="Card image cap">
                   </div>
                   <div class="card-body">
-                    <h5 class="card-title color-black">สุขภาพเท้าสำหรับเด็กเหมือนสุขภาพภายใน</h5>
+                    <h5 class="card-title color-black font-cloud-bold" style="margin-top:20px">สุขภาพเท้าสำหรับเด็กเหมือนสุขภาพภายใน</h5>
                     <p class="card-text color-black">สุขภาพจากการเล่นรถจักยานเพื่อน้องถือเป็นสิ่งสำคัญที่จะทำให้สุขภาพของเด็กดีขึ้น</p>
                   </div>
                 </div>
@@ -110,7 +110,7 @@
                 <div class="card"style="min-height:300px">
                   <img class="card-img-top" src="../assets/rodolfo-mari-81201.jpg" width="auto" height="150" alt="Card image cap">
                   <div class="card-body">
-                    <h5 class="card-title color-black">สุขภาพจากการเล่นรถจักรยานเพื่อน้อง</h5>
+                    <h5 class="card-title color-black font-cloud-bold" style="margin-top:20px">สุขภาพจากการเล่นรถจักรยานเพื่อน้อง</h5>
                     <p class="card-text color-black">สุขภาพจากการเล่นรถจักยานเพื่อน้องถือเป็นสิ่งสำคัญที่จะทำให้สุขภาพของเด็กดีขึ้นถือเป็นการช่วยเหลือด้าน</p>
                   </div>
                 </div>
@@ -123,7 +123,7 @@
       </div>
 
       <div class="container">
-        <h1 class="text-left" style="margin-top:10px">บทความ</h1>
+        <h1 class="text-left" style="margin-top:30px;margin-bottom:30px">บทความ</h1>
         <div class="row">
           <div class="col-md-3 col-sm-6 col-xs-12">
             <!-- <router-link :to="{ path: '/campaign' }" class="card"> -->
@@ -133,7 +133,7 @@
                             <!-- <img class="card-img-top" src="../assets/cook.jpeg" width="350" height="auto" alt="Card image cap"> -->
                           
                     <div class="card-body" style="margin-top:10px">
-                    <h5 class="card-title" style="font-size:1em">ฝันที่เป็นจริง น้องเบลล์กับเครื่องดนตรีชิ้นโปรด</h5>
+                    <h5 class="card-title font-cloud-bold" style="font-size:1em">ฝันที่เป็นจริง น้องเบลล์กับเครื่องดนตรีชิ้นโปรด</h5>
                     </div>
                   </div>
             </router-link>
@@ -146,7 +146,7 @@
                             <!-- <img class="card-img-top" src="../assets/cook.jpeg" width="350" height="auto" alt="Card image cap"> -->
                           
                     <div class="card-body" style="margin-top:10px">
-                    <h5 class="card-title" style="font-size:1em">ความคืบหน้าโครงการสนับสนุนให้เด็กได้เรียนต่อด้านทำอาหาร</h5>
+                    <h5 class="card-title font-cloud-bold" style="font-size:1em">ความคืบหน้าโครงการสนับสนุนให้เด็กได้เรียนต่อด้านทำอาหาร</h5>
                     </div>
                   </div>
             </router-link>
@@ -157,7 +157,7 @@
                             <div class="lang-img"></div>
                             <!-- <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap"> -->
                             <div class="card-body" style="margin-top:10px">
-                                <h5 class="card-title" style="font-size:1em">ข้อความขอบคุณจากน้องมิ้นในโครงการส่งเสริมภาษา</h5>
+                                <h5 class="card-title font-cloud-bold" style="font-size:1em">ข้อความขอบคุณจากน้องมิ้นในโครงการส่งเสริมภาษา</h5>
                             </div>
                         </div>
             </router-link>
@@ -169,7 +169,7 @@
                             <div class="study-img"></div>
                             <!-- <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap"> -->
                             <div class="card-body" style="margin-top:10px">
-                                <h5 class="card-title" style="font-size:1em">ดำเนินการจัดโครงการคอมพิวเตอร์เพื่อการศึกษา</h5>
+                                <h5 class="card-title font-cloud-bold" style="font-size:1em">ดำเนินการจัดโครงการคอมพิวเตอร์เพื่อการศึกษา</h5>
                             </div>
                         </div>
                     </router-link>
