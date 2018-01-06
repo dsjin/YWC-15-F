@@ -46,19 +46,21 @@
         <div class="row">
       
 
-          <div class="col-md-4 col-sm-6 col-xs-12 color-black">
-            <!-- <router-link :to="{ path: '/campaign' }" class="card"> -->
-            <router-link :to="{ path: '/campaign/'+item }">
-              <div class="card" style="min-height:300px">
-                <img class="card-img-top" src="../assets/IMG_8808.jpg" width="auto" height="150" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title color-black">แคมเปญสานฝันอุปกรณ์ทางการศึกษาให้น้อง</h5>
-                  <p class="card-text color-black">ร่วมช่วยเหลือเด็กด้อยโอกาสเพื่อให้พวกเขาได้รับอุปกรณ์ทางการศึกษาเพื่อการเรียน และสนับสนุนการเรียนรู้</p>
+           <div class="col-md-4 col-sm-6 col-xs-12 color-black">
+              <!-- <router-link :to="{ path: '/campaign' }" class="card"> -->
+              <router-link :to="{ path: '/campaign/'+item }">
+                <div class="card" style="min-height:300px">
+                  <div class="div">
+                      <img class="card-img-top" src="../assets/photo-1486280380840-0531135d75af.jpg" width="100%" height="150" alt="Card image cap">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title color-black">สุขภาพเท้าสำหรับเด็กเหมือนสุขภาพใน</h5>
+                    <p class="card-text color-black">สุขภาพจากการเล่นรถจักยานเพื่อน้องถือเป็นสิ่งสำคัญที่จะทำให้สุขภาพของเด็กดีขึ้น</p>
+                  </div>
                 </div>
-              </div>
-            </router-link>
-
-          </div>
+              </router-link>
+  
+            </div>
 
 
           <div class="col-md-4 col-sm-6 col-xs-12 color-black">

@@ -74,7 +74,7 @@
 
           <div class="col-md-4 col-sm-6 col-xs-12 color-black">
             <!-- <router-link :to="{ path: '/campaign' }" class="card"> -->
-            <router-link :to="{ path: '/campaign/'+item }">
+            <router-link :to="{ path: '/campaign/100' }">
               <div class="card" style="min-height:300px">
                 <img class="card-img-top" src="../assets/IMG_8808.jpg" width="auto" height="150" alt="Card image cap">
                 <div class="card-body">
@@ -89,7 +89,7 @@
 
           <div class="col-md-4 col-sm-6 col-xs-12 color-black">
               <!-- <router-link :to="{ path: '/campaign' }" class="card"> -->
-              <router-link :to="{ path: '/campaign/'+item }">
+              <router-link :to="{ path: '/campaign/100' }">
                 <div class="card" style="min-height:300px">
                   <div class="div">
                       <img class="card-img-top" src="../assets/photo-1486280380840-0531135d75af.jpg" width="100%" height="150" alt="Card image cap">
@@ -106,7 +106,7 @@
             
           <div class="col-md-4 col-sm-6 col-xs-12 color-black">
               <!-- <router-link :to="{ path: '/campaign' }" class="card"> -->
-              <router-link :to="{ path: '/campaign/'+item }">
+               <router-link :to="{ path: '/campaign/100' }">
                 <div class="card"style="min-height:300px">
                   <img class="card-img-top" src="../assets/rodolfo-mari-81201.jpg" width="auto" height="150" alt="Card image cap">
                   <div class="card-body">
