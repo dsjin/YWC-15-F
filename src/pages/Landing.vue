@@ -10,7 +10,7 @@
         <h1>ที่รอคอยการเติมเต็ม"</h1>
       </div>
       <div class="header-button-box">
-        <button class="btn cicle-btn bg-yellow">แบ่งปัน</button>
+        <button class="btn cicle-btn bg-yellow" @click="goto('/form')">แบ่งปัน</button>
         <button class="btn cicle-btn bg-yellow" style="margin-left: 15px;" @click="goto('campaign')">พบเด็กช่างฝัน</button>
       </div>
     </section>

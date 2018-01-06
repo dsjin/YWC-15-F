@@ -7,6 +7,8 @@ import Donate from '@/pages/Donate'
 import CampaignDetail from '@/pages/CampaignDetail'
 import Blog from '@/pages/Blog'
 import BlogDetail from '@/pages/BlogDetail'
+import Form from '@/pages/Form'
+import AboutUs from '@/pages/AboutUs'
 
 Vue.use(Router)
 
@@ -41,6 +43,16 @@ export default new Router({
       path: "/blog/:id",
       name: 'BlogDetail',
       component: BlogDetail
+    },
+    {
+      path: "/form",
+      name: 'Form',
+      component: Form
+    },
+    {
+      path: "/aboutus",
+      name: 'AboutUs',
+      component: AboutUs
     }
   ]
 })

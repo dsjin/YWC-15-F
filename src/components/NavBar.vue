@@ -22,7 +22,7 @@
         </li>
 
         <li class="nav-item">
-            <router-link class="nav-link" :to="{ path: '/' }">ติดต่อ</router-link>
+            <router-link class="nav-link" :to="{ path: '/aboutus' }">ติดต่อ</router-link>
           </li>
 
           
