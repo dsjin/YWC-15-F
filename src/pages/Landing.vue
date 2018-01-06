@@ -16,24 +16,22 @@
     </section>
 
     <section class="">
-      <div class="container row">
-        <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-6 col-lg-6 col-sm-12 ">
+          <div class="container">
           <p class="text-left" style="font-size: 5rem">Dreamand</p>
           <p class="text-left" style="font-size: 2rem">สานฝันสู่การให้ที่ยิ่งใหญ่</p>
 
           <p class="text-left">
-              dreamand.com (ดรีมมานด์.คอม) พวกเราคือกลุ่มคนที่รวมตัวกันเป็นสื่อกลางระหว่างเยาวชนที่มีความฝัน แต่ไม่มีโอกาสในการสานความฝันของตัวเอง และกลุ่มคนที่มีความต้องการที่จะบริจาคทุนทรัพย์เป็นการกุศล
-
-              เราคัดเลือกน้องๆอย่างไร?
-              
-              เยาวชนที่ทางทีมงานคัดเลือกมาจะเป็นเยาวชนที่มีความฝันที่อยากจะทำอะไรบางอย่าง เช่นเด็กชายเอ มีความฝันอยากเป็นนักฟุตบอล แต่ไม่ได้รับโอกาสในการฝึกเตะฟุตบอลเพราะขาดแคลนทุนทรัพย์ เด็กชายเอมีพฤติกรรมที่ดี เป็นที่ชื่นชมของคนรอบตัว พวกเราจึงจะทำการนำเรื่องราวของเด็กชายเอมาบอกต่อให้ทุกคนได้รับรู้ผ่านเว็บไซต์ ดรีมมานด์.ดอม เพื่อทำการระดมทุนนำเงินไปซื้ออุปกรณ์กีฬาให้เด็กชายเอ
+          ดรีมมานด์.คอม เป็นเว็บไซต์สำหรับการช่วยเหลือเด็กที่มีความฝัน แต่ขาดโอกาสในการทำความฝันของตัวเอง โดยใช้วิธีการระดมทุน เพื่อนำเงินไปดำเนินการสร้างความฝัน ตามแต่ละอันความฝันที่น้องต้องการ
           </p>
         </div>
-        <div class="col-md-6">
+      </div>
+        <div class="col-md-6 col-lg-6 col-sm-12">
 
-          <div class="container">
+          <div class="">
 
-            <div class="card vertical-center" style="height:31vh;">
+            <div class="card vertical-center" style="height:auto;">
               <div class="card-body">
                 <p style="padding:0px">ยอดเงินบริจาคทั้งหมด</p>
                 <p style="padding:0px">144,000 บาท</p>
@@ -41,7 +39,7 @@
             </div>
 
 
-            <div class="card vertical-center" style="height:31vh;">
+            <div class="card vertical-center" style="height:auto;">
 
               <div class="card-body">
                 <div>ระยะเวลา</div>
@@ -51,11 +49,11 @@
               </div>
             </div>
 
-            <div class="card vertical-center" style="height:31vh;">
+            <div class="card vertical-center" style="height:auto;">
               <div class="card-body">
-                  <div>เด็กๆจำนวน</div>
-                  <div>998 คน</div>
-                  <div>ได้รับการสานฝันแล้ว</div>
+                <div>เด็กๆจำนวน</div>
+                <div>998 คน</div>
+                <div>ได้รับการสานฝันแล้ว</div>
                 <!-- <h5 class="card-title">Card title</h5> -->
                 <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
               </div>
@@ -71,19 +69,55 @@
       <div class="container">
         <h1 class="text-left" style="margin-top:10px">แคมเปญที่น่าสนใจ</h1>
         <div class="row">
-          <div v-for="(item,index) in [1,2,3]" :key="index" class="col-md-4 col-sm-6 col-xs-12">
+      
+
+          <div class="col-md-4 col-sm-6 col-xs-12 color-black">
             <!-- <router-link :to="{ path: '/campaign' }" class="card"> -->
             <router-link :to="{ path: '/campaign/'+item }">
-              <div class="card">
-                <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap">
+              <div class="card"style="min-height:300px">
+                <img class="card-img-top" src="../assets/photo-1465659398573-cc071d2531d0.jpg" width="auto" height="150" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <h5 class="card-title color-black">ดนตรีเป็นยารักษาจิตใจที่ดีที่สุด</h5>
+                  <p class="card-text color-black">สุขภาพจากการเล่นรถจักรยานเพื่อน้องเป็นสิ่งสำคัญที่จะทำให้สุขภาพของเด็กดีขึ้นถือเป็นการช่วยเหลือด้านจิตใจ</p>
                 </div>
               </div>
             </router-link>
 
           </div>
+
+
+          <div class="col-md-4 col-sm-6 col-xs-12 color-black">
+              <!-- <router-link :to="{ path: '/campaign' }" class="card"> -->
+              <router-link :to="{ path: '/campaign/'+item }">
+                <div class="card"style="min-height:300px">
+                  <div class="div">
+                      <img class="card-img-top" src="../assets/photo-1486280380840-0531135d75af.jpg" width="100%" height="150" alt="Card image cap">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title color-black">สุขภาพเท้าสำหรับเด็กเหมือนสุขภาพใน</h5>
+                    <p class="card-text color-black">สุขภาพจากการเล่นรถจักยานเพื่อน้องถือเป็นสิ่งสำคัญที่จะทำให้สุขภาพของเด็กดีขึ้น</p>
+                  </div>
+                </div>
+              </router-link>
+  
+            </div>
+
+            
+          <div class="col-md-4 col-sm-6 col-xs-12 color-black">
+              <!-- <router-link :to="{ path: '/campaign' }" class="card"> -->
+              <router-link :to="{ path: '/campaign/'+item }">
+                <div class="card"style="min-height:300px">
+                  <img class="card-img-top" src="../assets/rodolfo-mari-81201.jpg" width="auto" height="150" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title color-black">สุขภาพจากการเล่นรถจักรยานเพื่อน้อง</h5>
+                    <p class="card-text color-black">สุขภาพจากการเล่นรถจักยานเพื่อน้องถือเป็นสิ่งสำคัญที่จะทำให้สุขภาพของเด็กดีขึ้นถือเป็นการช่วยเหลือด้าน</p>
+                  </div>
+                </div>
+              </router-link>
+  
+            </div>
+
+
         </div>
       </div>
 
@@ -94,10 +128,9 @@
             <!-- <router-link :to="{ path: '/campaign' }" class="card"> -->
             <router-link :to="{ path: '/campaign/'+item }">
               <div class="card">
-                <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap">
+                <img class="card-img-top" src="../assets/photo-1465659398573-cc071d2531d0.jpg"  width="auto" height="150" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <h5 class="card-title">ปะแป้งเด็กเก็บเห็ด ที่ได้รับโอกาสจากแคมเปญ</h5>
                 </div>
               </div>
             </router-link>
@@ -119,7 +152,24 @@
     name: 'Landing',
     data() {
       return {
-        msg: 'Welcome to Your Vue.js App'
+        msg: 'Welcome to Your Vue.js App',
+        campaigns: [
+          {
+            imgsrc: '../assets/photo-1486280380840-0531135d75af.jpg',
+            title: 'title1',
+            text: 'text1'
+          },
+          {
+            imgsrc: '../assets/photo-1486280380840-0531135d75af.jpg',
+            title: 'title1',
+            text: 'text1'
+          },
+          {
+            imgsrc: '../assets/photo-1486280380840-0531135d75af.jpg',
+            title: 'title1',
+            text: 'text1'
+          }
+        ]
       }
     },
     methods: {
@@ -136,6 +186,9 @@
     height: 90px;
     line-height: 90px;
     text-align: center;
+  }
+  .color-black{
+    color:black!important;
   }
 
   .text-box {
