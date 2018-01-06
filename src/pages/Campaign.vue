@@ -7,7 +7,7 @@
             <h2 class="text-left"> Head subject</h2>
 
             <div class="row">
-                <div v-for="item in [1,2,3,4,5,6,7,8,9]" class="col-md-4 col-sm-6 col-xs-12">
+                <div v-for="(item,index) in [1,2,3,4,5,6,7,8,9]" :key="index" class="col-md-4 col-sm-6 col-xs-12">
                     <!-- <router-link :to="{ path: '/campaign' }" class="card"> -->
                     <router-link :to="{ path: '/campaign/'+item }">
                         <div class="card">
