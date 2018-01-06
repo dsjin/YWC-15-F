@@ -74,7 +74,7 @@
           <div class="col-md-4 col-sm-6 col-xs-12 color-black">
             <!-- <router-link :to="{ path: '/campaign' }" class="card"> -->
             <router-link :to="{ path: '/campaign/'+item }">
-              <div class="card"style="min-height:300px">
+              <div class="card" style="min-height:300px">
                 <img class="card-img-top" src="../assets/IMG_8808.jpg" width="auto" height="150" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title color-black">แคมเปญสานฝันอุปกรณ์ทางการศึกษาให้น้อง</h5>
