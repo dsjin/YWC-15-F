@@ -7,25 +7,18 @@
             <h2 class="text-left"> Head subject</h2>
 
             <div class="row">
-                <div v-for="item in [1,2,3,4,5,6,7,8,9]" class="col-md-4 col-sm-6 col-xs-12">
+                <div v-for="item in [1,2,3,4]" class="col-md-3 col-sm-6 col-xs-12">
                     <!-- <router-link :to="{ path: '/campaign' }" class="card"> -->
-                    <router-link :to="{ path: '/campaign/'+item }">
+                    <router-link :to="{ path: '/blog/'+item }">
                         <div class="card">
                             <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
                         </div>
                     </router-link>
-
-
                 </div>
-                
             </div>
-
-
-
             <nav aria-label="Page navigation example">
                 <ul class="pagination justify-content-end">
                     <li class="page-item disabled">

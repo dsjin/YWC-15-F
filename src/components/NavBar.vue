@@ -18,7 +18,7 @@
         </li>
 
         <li class="nav-item">
-            <router-link class="nav-link" :to="{ path: '/' }">บทความ</router-link>
+            <router-link class="nav-link" :to="{ path: '/blog' }">บทความ</router-link>
         </li>
 
         <li class="nav-item">

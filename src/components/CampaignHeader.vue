@@ -11,13 +11,18 @@
               consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
               nulla pariatur. Excepteur sint occaecat cupidatat non proident
               , sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-primary" @click="goto('/campaign/100')">Primary</button>
       </div>
   </div>
 </template>
 <script>
 export default {
-  name:'CampaignHeader'
+  name:'CampaignHeader',
+  methods:{
+      goto:function(path){
+          this.$router.push({'path':path})
+      }
+  }
 }
 </script>
 <style scoped>
