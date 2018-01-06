@@ -75,10 +75,10 @@
             <!-- <router-link :to="{ path: '/campaign' }" class="card"> -->
             <router-link :to="{ path: '/campaign/'+item }">
               <div class="card"style="min-height:300px">
-                <img class="card-img-top" src="../assets/photo-1465659398573-cc071d2531d0.jpg" width="auto" height="150" alt="Card image cap">
+                <img class="card-img-top" src="../assets/IMG_8808.jpg" width="auto" height="150" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title color-black">ดนตรีเป็นยารักษาจิตใจที่ดีที่สุด</h5>
-                  <p class="card-text color-black">สุขภาพจากการเล่นรถจักรยานเพื่อน้องเป็นสิ่งสำคัญที่จะทำให้สุขภาพของเด็กดีขึ้นถือเป็นการช่วยเหลือด้านจิตใจ</p>
+                  <h5 class="card-title color-black">แคมเปญสานฝันอุปกรณ์ทางการศึกษาให้น้อง</h5>
+                  <p class="card-text color-black">ร่วมช่วยเหลือเด็กด้อยโอกาสเพื่อให้พวกเขาได้รับอุปกรณ์ทางการศึกษาเพื่อการเรียน และสนับสนุนการเรียนรู้</p>
                 </div>
               </div>
             </router-link>
