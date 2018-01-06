@@ -21,19 +21,50 @@
 
 
         <div class="container">
-            <h2 class="text-left"> Head subject</h2>
+            <h2 class="text-left">บทความ</h2>
 
             <div class="row">
-                <div v-for="item in [1,2,3,4]" class="col-md-3 col-sm-6 col-xs-12">
+                <div class="col-md-4 col-sm-6 col-xs-12">
                     <!-- <router-link :to="{ path: '/campaign' }" class="card"> -->
                     <router-link :to="{ path: '/blog/'+item }">
                         <div class="card">
-                            <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap">
+                            <div class="cook-img"></div> 
+                            <!-- <img class="card-img-top" src="../assets/cook.jpeg" width="350" height="auto" alt="Card image cap"> -->
+                          
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title">ความคืบหน้าโครงการสนับสนุนให้เด็กได้เรียนต่อด้านทำอาหาร</h5>
                             </div>
                         </div>
                     </router-link>
+                    
+                </div>
+
+                      <div class="col-md-4 col-sm-6 col-xs-12">
+                    <!-- <router-link :to="{ path: '/campaign' }" class="card"> -->
+                    <router-link :to="{ path: '/blog/'+item }">
+                        <div class="card">
+                            <div class="lang-img"></div>
+                            <!-- <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">ข้อความขอบคุณจากน้องมิ้น ในโครงการส่งเสริมภาษา</h5>
+                            </div>
+                        </div>
+                    </router-link>
+                    
+                </div>
+
+                      <div class="col-md-4 col-sm-6 col-xs-12">
+                    <!-- <router-link :to="{ path: '/campaign' }" class="card"> -->
+                    <router-link :to="{ path: '/blog/'+item }">
+                        <div class="card">
+                            <div class="study-img"></div>
+                            <!-- <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">ดำเนินการจัดโครงการคอมพิวเตอร์เพื่อการศึกษา</h5>
+                            </div>
+                        </div>
+                    </router-link>
+                    
                 </div>
             </div>
             <nav aria-label="Page navigation example">
@@ -85,6 +116,36 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.cook-img {
+  background-image: url("../assets/cook.jpeg");
+  width: 100%;
+  height: 150px;
+
+  background-size: cover;
+}
+
+.lang-img{
+     background-image: url("../assets/lang.jpeg");
+  width: 100%;
+  height: 150px;
+
+  background-size: cover;
+}
+.cook-img {
+  background-image: url("../assets/cook.jpeg");
+  width: 100%;
+  height: 150px;
+
+  background-size: cover;
+}
+.study-img{
+      background-image: url("../assets/study.jpeg");
+  width: 100%;
+  height: 150px;
+
+  background-size: cover;
+}
+
 .campaignheader-img,
 .campaignheader-content {
   text-align: left;
