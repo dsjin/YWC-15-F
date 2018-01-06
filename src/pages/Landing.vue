@@ -19,7 +19,7 @@
       <div class="row">
         <div class="col-md-12 col-lg-12 col-sm-12 ">
           <div class="container">
-          <p class="text-center" style="font-size: 5rem;font-family:Montserrat">Dreamand</p>
+          <p class="text-center" style="font-size: 5rem;">Dreamand</p>
           <p class="text-center" style="font-size: 2rem">สานฝันสู่การให้ที่ยิ่งใหญ่</p>
 
           <p class="text-center">
@@ -125,20 +125,57 @@
       <div class="container">
         <h1 class="text-left" style="margin-top:10px">บทความ</h1>
         <div class="row">
-          <div v-for="(item,index) in [1,2,3,4]" :key="index" class="col-md-3 col-sm-6 col-xs-12">
+          <div class="col-md-3 col-sm-6 col-xs-12">
             <!-- <router-link :to="{ path: '/campaign' }" class="card"> -->
-            <router-link :to="{ path: '/campaign/'+item }">
-              <div class="card">
-                <img class="card-img-top" src="../assets/photo-1465659398573-cc071d2531d0.jpg"  width="auto" height="150" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">ปะแป้งเด็กเก็บเห็ด ที่ได้รับโอกาสจากแคมเปญ</h5>
-                </div>
-              </div>
+            <router-link :to="{ path: '/blog/'+item }">
+                <div class="card">
+                  <div class="paino-img"></div> 
+                            <!-- <img class="card-img-top" src="../assets/cook.jpeg" width="350" height="auto" alt="Card image cap"> -->
+                          
+                    <div class="card-body" style="margin-top:10px">
+                    <h5 class="card-title" style="font-size:1em">ฝันที่เป็นจริง น้องเบลล์กับเครื่องดนตรีชิ้นโปรด</h5>
+                    </div>
+                  </div>
             </router-link>
-
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <!-- <router-link :to="{ path: '/campaign' }" class="card"> -->
+            <router-link :to="{ path: '/blog/'+item }">
+                <div class="card">
+                  <div class="cook-img"></div> 
+                            <!-- <img class="card-img-top" src="../assets/cook.jpeg" width="350" height="auto" alt="Card image cap"> -->
+                          
+                    <div class="card-body" style="margin-top:10px">
+                    <h5 class="card-title" style="font-size:1em">ความคืบหน้าโครงการสนับสนุนให้เด็กได้เรียนต่อด้านทำอาหาร</h5>
+                    </div>
+                  </div>
+            </router-link>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <router-link :to="{ path: '/blog/'+item }">
+                        <div class="card">
+                            <div class="lang-img"></div>
+                            <!-- <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap"> -->
+                            <div class="card-body" style="margin-top:10px">
+                                <h5 class="card-title" style="font-size:1em">ข้อความขอบคุณจากน้องมิ้นในโครงการส่งเสริมภาษา</h5>
+                            </div>
+                        </div>
+            </router-link>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+                    <!-- <router-link :to="{ path: '/campaign' }" class="card"> -->
+                    <router-link :to="{ path: '/blog/'+item }">
+                        <div class="card">
+                            <div class="study-img"></div>
+                            <!-- <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap"> -->
+                            <div class="card-body" style="margin-top:10px">
+                                <h5 class="card-title" style="font-size:1em">ดำเนินการจัดโครงการคอมพิวเตอร์เพื่อการศึกษา</h5>
+                            </div>
+                        </div>
+                    </router-link>
+          </div>
           </div>
         </div>
-      </div>
 
     </section>
 
@@ -238,7 +275,9 @@
     height: 95vh
   }
 
-
+  h5{
+    color: black
+  }
   h1,
   h2 {
     font-weight: normal;
@@ -269,5 +308,33 @@
     font-weight: bold;
     font-size: 2em;
     display: inline;
+  }
+  .cook-img {
+    background-image: url("../assets/cook.jpeg");
+    width: 100%;
+    height: 150px;
+
+    background-size: cover;
+  }
+  .study-img{
+      background-image: url("../assets/study.jpeg");
+      width: 100%;
+      height: 150px;
+
+      background-size: cover;
+  }
+  .lang-img{
+     background-image: url("../assets/lang.jpeg");
+    width: 100%;
+    height: 150px;
+
+    background-size: cover;
+  }
+  .paino-img{
+    background-image: url("../assets/IMG_8803.jpg");
+    width: 100%;
+    height: 150px;
+
+    background-size: cover;
   }
 </style>
