@@ -61,23 +61,7 @@
         </div>
       </div>
 
-      <div class="container">
-        <h1 class="text-left" style="margin-top:10px">บทความ</h1>
-        <div class="row">
-          <div v-for="(item,index) in [1,2,3,4]" :key="index" class="col-md-3 col-sm-6 col-xs-12">
-            <!-- <router-link :to="{ path: '/campaign' }" class="card"> -->
-            <router-link :to="{ path: '/campaign/'+item }">
-              <div class="card">
-                <img class="card-img-top" src="../assets/photo-1465659398573-cc071d2531d0.jpg"  width="auto" height="150" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">ปะแป้งเด็กเก็บเห็ด ที่ได้รับโอกาสจากแคมเปญ</h5>
-                </div>
-              </div>
-            </router-link>
-
-          </div>
-        </div>
-      </div>
+     
 
     </section>
            <Footer/>
